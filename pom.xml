@@ -21,6 +21,7 @@
 		<agile.architecture.output.diagrams>${agile.architecture.output.dir}/diagrams</agile.architecture.output.diagrams>
 		<agile.architecture.output.enhancements>${agile.architecture.output.dir}/enhancements</agile.architecture.output.enhancements>
 
+		<version.agile-architecture>master-SNAPSHOT</version.agile-architecture>
 		<!-- See latest version here: https://mvnrepository.com/artifact/org.asciidoctor/asciidoctor-maven-plugin -->
 		<version.asciidoctor.maven.plugin>2.0.0-RC.1</version.asciidoctor.maven.plugin>
 		<!-- See latest version here: https://mvnrepository.com/artifact/org.asciidoctor/asciidoctorj-pdf -->
@@ -62,12 +63,12 @@
 		<dependency>
 			<groupId>com.github.Riduidel.agile-architecture-documentation-system</groupId>
 			<artifactId>base</artifactId>
-			<version>${project.version}</version>
+			<version>${version.agile-architecture}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.github.Riduidel.agile-architecture-documentation-system</groupId>
 			<artifactId>github-scm-handler</artifactId>
-			<version>${project.version}</version>
+			<version>${version.agile-architecture}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
