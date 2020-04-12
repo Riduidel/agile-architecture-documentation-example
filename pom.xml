@@ -21,7 +21,7 @@
 		<agile.architecture.output.diagrams>${agile.architecture.output.dir}/diagrams</agile.architecture.output.diagrams>
 		<agile.architecture.output.enhancements>${agile.architecture.output.dir}/enhancements</agile.architecture.output.enhancements>
 
-		<version.agile-architecture>master-SNAPSHOT</version.agile-architecture>
+		<version.agile-architecture>0.0.3-SNAPSHOT</version.agile-architecture>
 		<!-- See latest version here: https://mvnrepository.com/artifact/org.asciidoctor/asciidoctor-maven-plugin -->
 		<version.asciidoctor.maven.plugin>2.0.0-RC.1</version.asciidoctor.maven.plugin>
 		<!-- See latest version here: https://mvnrepository.com/artifact/org.asciidoctor/asciidoctorj-pdf -->
@@ -214,6 +214,10 @@
 									<key>maven.source.dir</key>
 									<value>${project.build.sourceDirectory}</value>
 								</systemProperty>
+								<ystemProperty>
+									<key>asciidoc.source.dir</key>
+									<value>${asciidoc.source.docs.directory}</value>
+								</ystemProperty>
 								<systemProperty>
 									<key>agile.architecture.diagrams</key>
 									<value>${agile.architecture.output.diagrams}</value>
