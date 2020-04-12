@@ -23,7 +23,7 @@
 		
 		<issues.url>https://github.com/Riduidel/agile-architecture-documentation-example/issues</issues.url>
 
-		<version.agile-architecture>0.0.3-SNAPSHOT</version.agile-architecture>
+		<version.agile-architecture>master-SNAPSHOT</version.agile-architecture>
 		<!-- See latest version here: https://mvnrepository.com/artifact/org.asciidoctor/asciidoctor-maven-plugin -->
 		<version.asciidoctor.maven.plugin>2.0.0-RC.1</version.asciidoctor.maven.plugin>
 		<!-- See latest version here: https://mvnrepository.com/artifact/org.asciidoctor/asciidoctorj-pdf -->
