@@ -1,2 +1,0 @@
-All kafkatrain data is stored in ElasticSearch, in the format provided by Navitia.
-As it is an example, no particular backup/persistence/optimization is provided.

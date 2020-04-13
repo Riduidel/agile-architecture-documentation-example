@@ -2,6 +2,7 @@
 :chapter: Code
 include::_notify-bug-admonition.adoc[]
 
+// Effective code documentation details are in 07-code subfolder
 ////
 Although other sections of the documentation describe the overall
 architecture of the software, often you'll want to present lower level
