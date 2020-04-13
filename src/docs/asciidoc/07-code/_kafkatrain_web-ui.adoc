@@ -1,0 +1,7 @@
+This container is responsible for displaying timetables in a "nice" UI.
+This is the simplest possible Javascript application one can imagine: 
+
+* the server-side component (all in `server.js`) provides
+** a route to display the `index.html` page.
+** a route to allow search in elsaticsearch index using specific criterias
+* the client-side component (all in `index.html`) displays timetables from search engine results

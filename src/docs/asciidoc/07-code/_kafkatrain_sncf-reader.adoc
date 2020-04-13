@@ -1,0 +1,4 @@
+sncf-reader application allows download SNCF train schedule from navitia.
+Since we try to write data into Kafka, 
+we could have written a command-line application that was restarted once ina  while.
+But we prefer, in order to have some kind of entreprisey system, start a vert.x application, because it is simple, and fast (vert fast, indeed).
