@@ -2,7 +2,6 @@
 :chapter: Data
 include::_notify-bug-admonition.adoc[]
 
-**TODO**
 ////
 The data associated with a software system is usually not the primary
 point of focus yet it's arguably more important than the software
