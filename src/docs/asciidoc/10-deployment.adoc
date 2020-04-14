@@ -2,7 +2,14 @@
 :chapter: Deployment
 include::_notify-bug-admonition.adoc[]
 
-**TODO**
+Softare system will be deployed on Kubernetes using Jenkins-X (itself already installed as operator on Kubernetes).
+As this example is not live, there is no real deployment that would allow auto-discovery.
+As a consequence, deployment diagram will be only "virtual" (in the sense that it is simply written).
+
+[plantuml, {plantumldir}deployment, svg, opts="interactive"]     
+----
+include::{structurizrdir}/deployment.plantuml[]
+----
 ////
 The deployment section is simply the mapping between the
 link:/help/documentation/software-architecture[software architecture]

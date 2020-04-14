@@ -11,6 +11,7 @@ import com.structurizr.Workspace;
 import com.structurizr.io.plantuml.C4PlantUMLWriter;
 import com.structurizr.model.Component;
 import com.structurizr.model.Container;
+import com.structurizr.model.DeploymentNode;
 import com.structurizr.model.Location;
 import com.structurizr.model.Model;
 import com.structurizr.model.Person;
@@ -18,6 +19,7 @@ import com.structurizr.model.SoftwareSystem;
 import com.structurizr.model.Tags;
 import com.structurizr.view.ComponentView;
 import com.structurizr.view.ContainerView;
+import com.structurizr.view.DeploymentView;
 import com.structurizr.view.Shape;
 import com.structurizr.view.Styles;
 import com.structurizr.view.SystemContextView;
@@ -68,6 +70,7 @@ public class Architecture implements ArchitectureModelProvider {
 		webUI.uses(elastic, "Read timetables");
 		inTrain.uses(webUI, "Enter transport delay");
 		webUI.delivers(waiting, "Get transport delay");
+		Container jenkinsX = kafkatrain.addContainer("DevOps pipeline", "DevOps pipeline manager", "Jenkins-X");
 
 		/////////////////////////////////////////////////////////////////////////////////////////
 		Component sncfReaderVertice = sncfReader.addComponent("SncfReader", "Verticle connecting to Navitia");
@@ -96,6 +99,16 @@ public class Architecture implements ArchitectureModelProvider {
 		sncfReaderComponentsView.addAllComponents();
 		sncfReaderComponentsView.add(kafka);
 		sncfReaderComponentsView.add(navitia);
+		
+		DeploymentView deployment = views.createDeploymentView(kafkatrain, "deployment", "Deployment of Kafkatrain on Kubernetes");
+		DeploymentNode k8s = model.addDeploymentNode("GKE", "GKE Kubernetes cluster", "Kubernetes");
+		k8s.add(jenkinsX);
+		k8s.add(kafka);
+		k8s.add(elastic);
+		DeploymentNode namespace = k8s.addDeploymentNode("Prod namespace", "Production namespace for our application", "Kubernetes namespace");
+		namespace.add(sncfReader);
+		namespace.add(webUI);
+		deployment.add(k8s);
 
 		Styles styles = views.getConfiguration().getStyles();
 //		styles.addElementStyle(Tags.SOFTWARE_SYSTEM).background("#1168bd").color("#ffffff");
