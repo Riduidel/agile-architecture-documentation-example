@@ -5,7 +5,8 @@ import java.io.IOException;
 import javax.enterprise.context.ApplicationScoped;
 
 import org.ndx.agile.architecture.base.ArchitectureModelProvider;
-import org.ndx.agile.architecture.base.enhancers.Keys;
+import org.ndx.agile.architecture.base.enhancers.ModelElementKeys;
+import org.ndx.agile.architecture.tickets.ADRExtractor;
 
 import com.structurizr.Workspace;
 import com.structurizr.io.plantuml.C4PlantUMLWriter;
@@ -42,7 +43,8 @@ public class Architecture implements ArchitectureModelProvider {
 		Person waiting = model.addPerson("Waiting person", "Someone waiting for his transport.");
 		Person inTrain = model.addPerson("Person in transport", "Someone already in the transport.");
 		SoftwareSystem kafkatrain = model.addSoftwareSystem("kafkatrain", "Crowd-sourced transport timetable prediction system");
-		kafkatrain.addProperty(Keys.SCM_PROJECT, "https://github.com/Riduidel/snowcamp-2019");
+		kafkatrain.addProperty(ModelElementKeys.SCM_PROJECT, "https://github.com/Riduidel/snowcamp-2019");
+		kafkatrain.addProperty(ADRExtractor.AGILE_ARCHITECTURE_TICKETS_PROJECT, "https://github.com/Riduidel/agile-architecture-documentation-example/");
 		waiting.uses(kafkatrain, "See train delay");
 		inTrain.uses(kafkatrain, "Informs application that train is running");
 		SoftwareSystem navitia = model.addSoftwareSystem(Location.External, "navitia", "Official train time-table");
@@ -52,8 +54,8 @@ public class Architecture implements ArchitectureModelProvider {
 
 		/////////////////////////////////////////////////////////////////////////////////////////
 		Container sncfReader = kafkatrain.addContainer("sncf-reader", "Read timetables from navitia, despite its name", "Java/Vert.x");
-		sncfReader.addProperty(Keys.SCM_PROJECT, "https://github.com/Riduidel/snowcamp-2019");
-		sncfReader.addProperty(Keys.SCM_PATH, "src/build/reference/sncf-reader");
+		sncfReader.addProperty(ModelElementKeys.SCM_PROJECT, "https://github.com/Riduidel/snowcamp-2019");
+		sncfReader.addProperty(ModelElementKeys.SCM_PATH, "src/build/reference/sncf-reader");
 		Container kafka = kafkatrain.addContainer("Streaming platform", "A platform to ingest timetables at the right speed", "Kafka");
 		kafka.addProperty(C4PlantUMLWriter.C4_ELEMENT_TYPE, C4PlantUMLWriter.Type.Db.toString());
 		sncfReader.uses(kafka, "Send timetables in our format");
@@ -65,8 +67,8 @@ public class Architecture implements ArchitectureModelProvider {
 		kafkaConnect.uses(kafka, "Receives timetables");
 		kafkaConnect.uses(elastic, "Sends timetables");
 		Container webUI = kafkatrain.addContainer("web-ui", "Web UI allowing interaction with application", "Javascript/Node");
-		webUI.addProperty(Keys.SCM_PROJECT, "https://github.com/Riduidel/snowcamp-2019");
-		webUI.addProperty(Keys.SCM_PATH, "src/build/reference/web-ui");
+		webUI.addProperty(ModelElementKeys.SCM_PROJECT, "https://github.com/Riduidel/snowcamp-2019");
+		webUI.addProperty(ModelElementKeys.SCM_PATH, "src/build/reference/web-ui");
 		webUI.uses(elastic, "Read timetables");
 		inTrain.uses(webUI, "Enter transport delay");
 		webUI.delivers(waiting, "Get transport delay");

@@ -72,6 +72,12 @@
 			<artifactId>github-scm-handler</artifactId>
 			<version>${version.agile-architecture}</version>
 		</dependency>
+		<!-- Newest addition, which allows one to have ADR extracted from GitHub issues (and other systems) -->
+		<dependency>
+			<groupId>com.github.Riduidel.agile-architecture-documentation-system</groupId>
+			<artifactId>adr-tickets-extractor</artifactId>
+			<version>${version.agile-architecture}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
