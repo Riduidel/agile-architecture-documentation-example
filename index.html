@@ -437,12 +437,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="article toc2 toc-left">
+<body class="book toc2 toc-left">
 <div id="header">
 <h1>example</h1>
 <div class="details">
 <span id="revnumber">version 0.0.3-SNAPSHOT,</span>
-<span id="revdate">2020-04-13T19:49:15Z</span>
+<span id="revdate">2020-06-25T12:22:24Z</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -522,28 +522,19 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#operation-and-support">12. Operation and Support</a></li>
 <li><a href="#decision-log">13. Decision Log</a>
 <ul class="sectlevel2">
-<li><a href="#use-adr-to-document-architecture-decisions">13.1. Use ADR to document architecture decisions</a>
+<li><a href="#kafkatrain-2">13.1. kafkatrain</a>
 <ul class="sectlevel3">
-<li><a href="#decision">13.1.1. Decision</a></li>
-<li><a href="#status">13.1.2. Status</a></li>
-<li><a href="#context-2">13.1.3. Context</a></li>
-<li><a href="#alternatives">13.1.4. Alternatives</a>
+<li><a href="#decisions">13.1.1. Decisions</a>
 <ul class="sectlevel4">
-<li><a href="#use-decisions-in-asciidoc">Use decisions in Asciidoc</a>
+<li><a href="#how-should-we-store-decisions">How should we store decisions?</a>
 <ul class="sectlevel5">
-<li><a href="#pros">PROS</a></li>
-<li><a href="#cons">CONS</a></li>
-</ul>
-</li>
-<li><a href="#use-another-format">Use another format</a>
-<ul class="sectlevel5">
-<li><a href="#pros-2">PROS</a></li>
-<li><a href="#cons-2">CONS</a></li>
+<li><a href="#alternative-use-simple-texts-as-designed-in-adr-practice">Alternative: Use simple texts, as designed in ADR practice</a></li>
+<li><a href="#alternative-we-could-use-issue-tracker">Alternative: We could use issue tracker</a></li>
+<li><a href="#decision">Decision</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#consequences">13.1.5. Consequences</a></li>
 </ul>
 </li>
 </ul>
@@ -572,7 +563,7 @@ If you encounter any error, feel free to
 <h3 id="context-diagram"><a class="anchor" href="#context-diagram"></a>1.1. Context diagram</h3>
 <div class="imageblock">
 <div class="content">
-<object type="image/svg+xml" data="./images/SystemContext.svg" width="452" height="536"><span class="alt">SystemContext</span></object>
+<object type="image/svg+xml" data="./images/SystemContext.svg" width="463" height="641"><span class="alt">SystemContext</span></object>
 </div>
 </div>
 </div>
@@ -965,7 +956,7 @@ If you encounter any error, feel free to
 </div>
 <div class="imageblock">
 <div class="content">
-<object type="image/svg+xml" data="./images/kafkatrain.containers.svg" width="1375" height="789"><span class="alt">kafkatrain.containers</span></object>
+<object type="image/svg+xml" data="./images/kafkatrain.containers.svg" width="1514" height="864"><span class="alt">kafkatrain.containers</span></object>
 </div>
 </div>
 <div class="paragraph">
@@ -976,7 +967,7 @@ We use ElasticSearch to provide various search directions, as we will request se
 <h3 id="software-architecture-of-sncfreader-component"><a class="anchor" href="#software-architecture-of-sncfreader-component"></a>6.1. Software architecture of sncfReader component</h3>
 <div class="imageblock">
 <div class="content">
-<object type="image/svg+xml" data="./images/sncfReader.components.svg" width="1695" height="263"><span class="alt">sncfReader.components</span></object>
+<object type="image/svg+xml" data="./images/sncfReader.components.svg" width="1703" height="378"><span class="alt">sncfReader.components</span></object>
 </div>
 </div>
 <div class="paragraph">
@@ -1266,7 +1257,14 @@ If you encounter any error, feel free to
 </table>
 </div>
 <div class="paragraph">
-<p><strong>TODO</strong></p>
+<p>Softare system will be deployed on Kubernetes using Jenkins-X (itself already installed as operator on Kubernetes).
+As this example is not live, there is no real deployment that would allow auto-discovery.
+As a consequence, deployment diagram will be only "virtual" (in the sense that it is simply written).</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<object type="image/svg+xml" data="./images/deployment.svg" width="760" height="663"><span class="alt">deployment</span></object>
+</div>
 </div>
 </div>
 </div>
@@ -1329,119 +1327,93 @@ If you encounter any error, feel free to
 </table>
 </div>
 <div class="sect2">
-<h3 id="use-adr-to-document-architecture-decisions"><a class="anchor" href="#use-adr-to-document-architecture-decisions"></a>13.1. Use ADR to document architecture decisions</h3>
-<div class="paragraph">
-<p>Date: 2020-01-14</p>
-</div>
+<h3 id="kafkatrain-2"><a class="anchor" href="#kafkatrain-2"></a>13.1. kafkatrain</h3>
 <div class="sect3">
-<h4 id="decision"><a class="anchor" href="#decision"></a>13.1.1. Decision</h4>
+<h4 id="decisions"><a class="anchor" href="#decisions"></a>13.1.1. Decisions</h4>
 <div class="paragraph">
-<p>We will store decisions as asciidoc documents in <code>src/docs/asciidoc/decisions</code>.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="status"><a class="anchor" href="#status"></a>13.1.2. Status</h4>
-<div class="paragraph">
-<p><strong>Accepted</strong></p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="context-2"><a class="anchor" href="#context-2"></a>13.1.3. Context</h4>
-<div class="paragraph">
-<p>The purpose of this section is to simply record the major decisions that
-have been made, including both the technology choices (e.g. products,
-frameworks, etc) and the overall architecture (e.g. the structure of the
-software, architectural style, decomposition, patterns, etc). For
-example:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Why did you choose technology or framework "X" over "Y" and "Z"?</p>
-</li>
-<li>
-<p>How did you do this? Product evaluation or proof of concept?</p>
-</li>
-<li>
-<p>Were you forced into making a decision about "X" based upon corporate
-policy or enterprise architecture strategies?</p>
-</li>
-<li>
-<p>Why did you choose the selected software architecture? What other
-options did you consider?</p>
-</li>
-<li>
-<p>How do you know that the solution satisfies the major quality
-attributes?</p>
-</li>
-<li>
-<p>&#8230;&#8203;</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="alternatives"><a class="anchor" href="#alternatives"></a>13.1.4. Alternatives</h4>
-<div class="sect4">
-<h5 id="use-decisions-in-asciidoc"><a class="anchor" href="#use-decisions-in-asciidoc"></a>Use decisions in Asciidoc</h5>
-<div class="sect5">
-<h6 id="pros"><a class="anchor" href="#pros"></a>PROS</h6>
-<div class="ulist">
-<ul>
-<li>
-<p>Decisions will be integrated in generated documentation</p>
-</li>
-<li>
-<p>Rendering will be optimal</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect5">
-<h6 id="cons"><a class="anchor" href="#cons"></a>CONS</h6>
-<div class="ulist">
-<ul>
-<li>
-<p>Decisions will be burried deep inside Asciidoc hiearchy</p>
-</li>
-</ul>
-</div>
-</div>
+<p>Fetched from <a href="https://github.com/Riduidel/agile-architecture-documentation-example/issues"><span class="icon"><i class="fa fa-github"></i></span> agile-architecture-documentation-example issues</a> with label "decision"</p>
 </div>
 <div class="sect4">
-<h5 id="use-another-format"><a class="anchor" href="#use-another-format"></a>Use another format</h5>
-<div class="sect5">
-<h6 id="pros-2"><a class="anchor" href="#pros-2"></a>PROS</h6>
-<div class="ulist">
-<ul>
-<li>
-<p>Decisions can be put in a specific folder</p>
-</li>
-<li>
-<p>We can use "tooling" to access those decisions</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect5">
-<h6 id="cons-2"><a class="anchor" href="#cons-2"></a>CONS</h6>
-<div class="ulist">
-<ul>
-<li>
-<p>Decisions will be isolate from architecture documentation</p>
-</li>
-<li>
-<p>Decision rendering will use another tooling (typically Markdown)</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="consequences"><a class="anchor" href="#consequences"></a>13.1.5. Consequences</h4>
+<h5 id="how-should-we-store-decisions"><a class="anchor" href="#how-should-we-store-decisions"></a><a href="https://github.com/Riduidel/agile-architecture-documentation-example/issues/1">How should we store decisions?</a></h5>
 <div class="paragraph">
-<p>Integrating decisions in Asciidoc requires changing a section of architecture.</p>
+<p>Ticket closed on Jun 18, 2020</p>
+</div>
+<div class="paragraph">
+<p>Everybody loves the fact to store the decisions (see the architecture decision record practices). But should we store them as simple text ?</p>
+</div>
+<div class="sect5">
+<h6 id="alternative-use-simple-texts-as-designed-in-adr-practice"><a class="anchor" href="#alternative-use-simple-texts-as-designed-in-adr-practice"></a>Alternative: Use simple texts, as designed in ADR practice</h6>
+<div class="paragraph">
+<p>Default agile architecture documentation template uses simple asciidoc pages following a template.</p>
+</div>
+<div class="paragraph">
+<p>Advantages</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>This is simple to write</p>
+</li>
+<li>
+<p>This lives along documentation</p>
+</li>
+<li>
+<p>This can be easily updated</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Drawbacks</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Decisions come and go, and simple texts is not so good at conveying change</p>
+</li>
+<li>
+<p>A decision is separated in various phase (see OODA method) and this is very baldy formatted in a simple text</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect5">
+<h6 id="alternative-we-could-use-issue-tracker"><a class="anchor" href="#alternative-we-could-use-issue-tracker"></a>Alternative: We could use issue tracker</h6>
+<div class="paragraph">
+<p>Advantages</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>It separates the various phases of discussion (discussed, adopted, superseed)</p>
+</li>
+<li>
+<p>It allow each alternative to be clearly viewed</p>
+</li>
+<li>
+<p>We can select interesting parts of discussion</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Drawbacks</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Converting an issue to a text is not so trivial</p>
+</li>
+<li>
+<p>We become dependent of an other external system</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect5">
+<h6 id="decision"><a class="anchor" href="#decision"></a>Decision</h6>
+<div class="paragraph">
+<p>We will use decisions in GitHub issues, to allow better tracability/UI, and so on</p>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -1451,11 +1423,8 @@ attributes?</p>
 <div id="footer">
 <div id="footer-text">
 Version 0.0.3-SNAPSHOT<br>
-Last updated 2020-04-13 19:48:56 UTC
+Last updated 2020-06-25 12:22:08 UTC
 </div>
 </div>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
-<script>hljs.initHighlighting()</script>
 </body>
 </html>

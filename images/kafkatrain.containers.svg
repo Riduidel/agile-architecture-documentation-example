@@ -1,21 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="789px" preserveAspectRatio="none" style="width:1375px;height:789px;" version="1.1" viewBox="0 0 1375 789" width="1375px" zoomAndPan="magnify"><defs><style type="text/css"><![CDATA[path:hover { stroke: #ADFF2F !important;}]]></style></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="201" x="590.5" y="16.708">kafkatrain - Containers</text><!--MD5=[181ecb5732a103add92dfdd8bd327b0c]
-cluster 3_boundary--><rect fill="#FFFFFF" height="545" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="813" x="327.5" y="199.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="83" x="692.5" y="214.9482">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="689" y="233.1016">kafkatrain</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="703" y="248.0137">[System]</text><!--MD5=[50c48f50f23c4505b4e1bf8eb0388b7a]
-entity 15--><rect fill="#438DD5" height="115.4531" style="stroke: #3C7FC0; stroke-width: 1.5;" width="187" x="640" y="258.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="696.5" y="280.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="83" x="692" y="297.7734">Data sink</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="100" x="683.5" y="312.6855">[Kafka Connect]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="735.5" y="328.5107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="163" x="650" y="344.8076">A tool to push events in</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="99" x="684" y="361.1045">search engine</text><!--MD5=[b289b39ced8dc6d267141842d8cb9775]
-entity 14--><path d="M811,622.9531 C811,612.9531 908.5,612.9531 908.5,612.9531 C908.5,612.9531 1006,612.9531 1006,622.9531 L1006,727.4063 C1006,737.4063 908.5,737.4063 908.5,737.4063 C908.5,737.4063 811,737.4063 811,727.4063 L811,622.9531 " fill="#438DD5" style="stroke: #3C7FC0; stroke-width: 1.5;"/><path d="M811,622.9531 C811,632.9531 908.5,632.9531 908.5,632.9531 C908.5,632.9531 1006,632.9531 1006,622.9531 " fill="none" style="stroke: #3C7FC0; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="871.5" y="648.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="126" x="845.5" y="665.7734">Search engine</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="51" x="883" y="680.6855">[Elastic]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="910.5" y="696.5107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="171" x="821" y="712.8076">A search engine allowing</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="134" x="841.5" y="729.1045">geographic queries</text><!--MD5=[e25884bd7fe840786d881277a14c5a0e]
-entity 11--><path d="M407,622.9531 C407,612.9531 516.5,612.9531 516.5,612.9531 C516.5,612.9531 626,612.9531 626,622.9531 L626,727.4063 C626,737.4063 516.5,737.4063 516.5,737.4063 C516.5,737.4063 407,737.4063 407,727.4063 L407,622.9531 " fill="#438DD5" style="stroke: #3C7FC0; stroke-width: 1.5;"/><path d="M407,622.9531 C407,632.9531 516.5,632.9531 516.5,632.9531 C516.5,632.9531 626,632.9531 626,622.9531 " fill="none" style="stroke: #3C7FC0; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="479.5" y="648.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="171" x="431" y="665.7734">Streaming platform</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="44" x="494.5" y="680.6855">[Kafka]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="518.5" y="696.5107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="134" x="447.5" y="712.8076">A platform to ingest</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="199" x="417" y="729.1045">timetables at the right speed</text><!--MD5=[832467b18690d1dd1b9afbdc6cb3d7bf]
-entity 10--><rect fill="#438DD5" height="115.4531" style="stroke: #3C7FC0; stroke-width: 1.5;" width="218" x="335.5" y="258.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="407.5" y="280.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="104" x="392.5" y="297.7734">sncf-reader</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="75" x="407" y="312.6855">[Java/Vert.x]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="446.5" y="328.5107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="198" x="345.5" y="344.8076">Read timetables from navitia,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="115" x="387" y="361.1045">despite its name</text><!--MD5=[7c356ee5fd76ea688127ca96320d15b9]
-entity 18--><rect fill="#438DD5" height="115.4531" style="stroke: #3C7FC0; stroke-width: 1.5;" width="208" x="914.5" y="258.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="981.5" y="280.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="989" y="297.7734">web-ui</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="107" x="965" y="312.6855">[Javascript/Node]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1020.5" y="328.5107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="184" x="924.5" y="344.8076">Web UI allowing interaction</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="106" x="965.5" y="361.1045">with application</text><!--MD5=[773709cb2207c097691e7e7d3d2cc787]
-entity 2--><rect fill="#08427B" height="101.4844" style="stroke: #073B6F; stroke-width: 1.5;" width="195" x="921" y="28.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="58" x="989.5" y="50.0918">«person»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="175" x="931" y="67.7734">Person in transport</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1020.5" y="84.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="163" x="935" y="100.8389">Someone already in the</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="67" x="985" y="117.1357">transport.</text><!--MD5=[cbb381f34bde73e199f6c8e56df9562c]
-entity 7--><rect fill="#999999" height="85.1875" style="stroke: #8A8A8A; stroke-width: 1.5;" width="213" x="1151" y="36.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="115" x="1200" y="58.0918">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="154" x="1180.5" y="75.7734">SNCF geolocation</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1259.5" y="92.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="193" x="1161" y="108.8389">SNCF train real-time location</text><!--MD5=[13c7745981a6abb6004f7738a8ca5078]
-entity 1--><rect fill="#08427B" height="101.4844" style="stroke: #073B6F; stroke-width: 1.5;" width="189" x="1168" y="450.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="58" x="1233.5" y="472.0918">«person»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="134" x="1195.5" y="489.7734">Waiting person</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1264.5" y="506.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="1178" y="522.8389">Someone waiting for his</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="67" x="1229" y="539.1357">transport.</text><!--MD5=[a92bd7649e35c8a5fd4b3e9f57d24e4a]
-entity 6--><rect fill="#999999" height="85.1875" style="stroke: #8A8A8A; stroke-width: 1.5;" width="171" x="6" y="273.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="115" x="34" y="295.0918">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="57" x="63" y="312.7734">navitia</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="93.5" y="329.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="151" x="16" y="345.8389">Official train time-table</text><!--MD5=[0a80c38a9b1df8b6d2ad8238a96997b1]
-link 15 to 14--><path d="M745.0922,374.083 C756.4916,423.3305 776.7036,495.0376 807.5,551.9531 C818.1966,571.7218 832.2937,591.3467 846.5499,608.9232 " fill="none" id="15-&gt;14" style="stroke: #707070; stroke-width: 3.0;"/><polygon fill="#707070" points="849.7859,612.8751,847.1791,603.3775,846.6183,609.0065,840.9893,608.4457,849.7859,612.8751" style="stroke: #707070; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="129" x="808.5" y="506.02">Sends timetables</text><!--MD5=[c49df76b05cd7343c1f29d62474ee235]
-link 15 to 11--><path d="M670.0908,373.9594 C647.9089,396.4072 624.1601,423.3635 606.5,450.9531 C575.2167,499.8255 551.4462,561.3554 536.2127,607.5558 " fill="none" id="15-&gt;11" style="stroke: #707070; stroke-width: 3.0;"/><polygon fill="#707070" points="534.5815,612.5437,541.1808,605.2328,536.1356,607.7914,533.577,602.7462,534.5815,612.5437" style="stroke: #707070; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="149" x="607.5" y="506.02">Receives timetables</text><!--MD5=[ad9d30a6482909a64c170f771130d934]
-link 2 to 18--><path d="M1018.5,130.0049 C1018.5,166.1739 1018.5,215.0988 1018.5,253.7561 " fill="none" id="2-&gt;18" style="stroke: #707070; stroke-width: 3.0;"/><polygon fill="#707070" points="1018.5,258.8989,1022.5,249.8989,1018.5,253.8989,1014.5,249.8989,1018.5,258.8989" style="stroke: #707070; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="113" x="1019.5" y="173.02">Enter transport</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="40" x="1058.5" y="188.1528">delay</text><!--MD5=[ec143eb54b8ec3c64add95129ee53470]
-link 10 to 11--><path d="M414.9356,374.3266 C394.2135,423.0917 374.0462,493.9801 397.5,551.9531 C405.9432,572.8228 419.8129,592.1136 435.1574,608.932 " fill="none" id="10-&gt;11" style="stroke: #707070; stroke-width: 3.0;"/><polygon fill="#707070" points="438.6625,612.7051,435.4676,603.3889,435.2594,609.0419,429.6064,608.8338,438.6625,612.7051" style="stroke: #707070; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="139" x="398.5" y="498.52">Send timetables in</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="79" x="431" y="513.6528">our format</text><!--MD5=[bb981a6adc719b3e66753b53abef405f]
-reverse link 6 to 10--><path d="M182.461,316.4531 C229.1316,316.4531 286.3265,316.4531 335.3607,316.4531 " fill="none" id="6&lt;-10" style="stroke: #707070; stroke-width: 3.0;"/><polygon fill="#707070" points="177.4021,316.4531,186.4021,320.4531,182.4021,316.4531,186.4021,312.4531,177.4021,316.4531" style="stroke: #707070; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="122" x="195.25" y="309.52">Read timetables</text><!--MD5=[786143a3b0e1db0b838116ef4b39cc8e]
-link 18 to 14--><path d="M1000.9412,374.0535 C986.3917,421.7415 965.1515,491.2655 946.5,551.9531 C940.9485,570.0164 934.9189,589.5651 929.3326,607.6476 " fill="none" id="18-&gt;14" style="stroke: #707070; stroke-width: 3.0;"/><polygon fill="#707070" points="927.7695,612.7064,934.2483,605.2885,929.2456,607.9293,926.6048,602.9267,927.7695,612.7064" style="stroke: #707070; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="122" x="977.5" y="506.02">Read timetables</text><!--MD5=[a91ffb4d1e9eb74fa9d25e6445decd2f]
-link 18 to 1--><path d="M1094.3656,373.9742 C1125.4269,397.5247 1161.1672,424.6229 1191.6871,447.763 " fill="none" id="18-&gt;1" style="stroke: #707070; stroke-width: 3.0;"/><polygon fill="#707070" points="1195.7654,450.8552,1191.0106,442.2302,1191.7812,447.8343,1186.1771,448.6049,1195.7654,450.8552" style="stroke: #707070; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="145" x="1155.5" y="417.02">Get transport delay</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="144" x="619" y="775.9482">Kafkatrain containers</text><!--MD5=[9edf37f84a7fe2ac9586f2eff81c58da]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="864px" preserveAspectRatio="none" style="width:1514px;height:864px;" version="1.1" viewBox="0 0 1514 864" width="1514px" zoomAndPan="magnify"><defs><style type="text/css"><![CDATA[path:hover { stroke: #ADFF2F !important;}]]></style></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="201" x="655.5" y="16.708">kafkatrain - Containers</text><!--MD5=[181ecb5732a103add92dfdd8bd327b0c]
+cluster 3_boundary--><rect fill="#FFFFFF" height="488" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="933" x="327.5" y="186.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="749" y="203.8047">kafkatrain</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="763" y="218.7168">[System]</text><!--MD5=[50c48f50f23c4505b4e1bf8eb0388b7a]
+entity 15--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="187" x="822" y="229.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="83" x="874" y="254.8047">Data sink</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="100" x="865.5" y="269.7168">[Kafka Connect]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="917.5" y="285.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="163" x="832" y="301.8389">A tool to push events in</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="99" x="866" y="318.1357">search engine</text><!--MD5=[f23e27573c7a8d7e934deb9fe4d73a5f]
+entity 22--><rect fill="#438DD5" height="85.1875" style="stroke: #3C7FC0; stroke-width: 1.5;" width="198" x="588.5" y="237.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="142" x="616.5" y="262.8047">DevOps pipeline</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="655" y="277.7168">[Jenkins-X]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="689.5" y="293.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="178" x="598.5" y="309.8389">DevOps pipeline manager</text><!--MD5=[b289b39ced8dc6d267141842d8cb9775]
+entity 14--><path d="M919,566.9531 C919,556.9531 1016.5,556.9531 1016.5,556.9531 C1016.5,556.9531 1114,556.9531 1114,566.9531 L1114,657.4375 C1114,667.4375 1016.5,667.4375 1016.5,667.4375 C1016.5,667.4375 919,667.4375 919,657.4375 L919,566.9531 " fill="#438DD5" style="stroke: #3C7FC0; stroke-width: 1.5;"/><path d="M919,566.9531 C919,576.9531 1016.5,576.9531 1016.5,576.9531 C1016.5,576.9531 1114,576.9531 1114,566.9531 " fill="none" style="stroke: #3C7FC0; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="126" x="953.5" y="595.8047">Search engine</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="51" x="991" y="610.7168">[Elastic]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1018.5" y="626.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="171" x="929" y="642.8389">A search engine allowing</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="134" x="949.5" y="659.1357">geographic queries</text><!--MD5=[e25884bd7fe840786d881277a14c5a0e]
+entity 11--><path d="M452,566.9531 C452,556.9531 561.5,556.9531 561.5,556.9531 C561.5,556.9531 671,556.9531 671,566.9531 L671,657.4375 C671,667.4375 561.5,667.4375 561.5,667.4375 C561.5,667.4375 452,667.4375 452,657.4375 L452,566.9531 " fill="#438DD5" style="stroke: #3C7FC0; stroke-width: 1.5;"/><path d="M452,566.9531 C452,576.9531 561.5,576.9531 561.5,576.9531 C561.5,576.9531 671,576.9531 671,566.9531 " fill="none" style="stroke: #3C7FC0; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="171" x="476" y="595.8047">Streaming platform</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="44" x="539.5" y="610.7168">[Kafka]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="563.5" y="626.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="134" x="492.5" y="642.8389">A platform to ingest</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="199" x="462" y="659.1357">timetables at the right speed</text><!--MD5=[832467b18690d1dd1b9afbdc6cb3d7bf]
+entity 10--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="218" x="335.5" y="229.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="104" x="392.5" y="254.8047">sncf-reader</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="75" x="407" y="269.7168">[Java/Vert.x]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="446.5" y="285.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="198" x="345.5" y="301.8389">Read timetables from navitia,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="115" x="387" y="318.1357">despite its name</text><!--MD5=[7c356ee5fd76ea688127ca96320d15b9]
+entity 18--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="208" x="1044.5" y="229.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="1119" y="254.8047">web-ui</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="107" x="1095" y="269.7168">[Javascript/Node]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1150.5" y="285.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="184" x="1054.5" y="301.8389">Web UI allowing interaction</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="106" x="1095.5" y="318.1357">with application</text><!--MD5=[773709cb2207c097691e7e7d3d2cc787]
+entity 2--><rect fill="#08427B" height="87.5156" style="stroke: #073B6F; stroke-width: 1.5;" width="195" x="1051" y="28.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="175" x="1061" y="53.8047">Person in transport</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1150.5" y="70.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="163" x="1065" y="86.8701">Someone already in the</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="67" x="1115" y="103.167">transport.</text><!--MD5=[cbb381f34bde73e199f6c8e56df9562c]
+entity 7--><rect fill="#999999" height="71.2188" style="stroke: #8A8A8A; stroke-width: 1.5;" width="213" x="1281" y="37.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="154" x="1310.5" y="62.3047">SNCF geolocation</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1389.5" y="79.0732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="193" x="1291" y="95.3701">SNCF train real-time location</text><!--MD5=[13c7745981a6abb6004f7738a8ca5078]
+entity 1--><rect fill="#08427B" height="87.5156" style="stroke: #073B6F; stroke-width: 1.5;" width="189" x="1276" y="407.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="134" x="1303.5" y="432.8047">Waiting person</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1372.5" y="449.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="1286" y="465.8701">Someone waiting for his</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="67" x="1337" y="482.167">transport.</text><!--MD5=[a92bd7649e35c8a5fd4b3e9f57d24e4a]
+entity 6--><rect fill="#999999" height="71.2188" style="stroke: #8A8A8A; stroke-width: 1.5;" width="171" x="6" y="244.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="57" x="63" y="269.8047">navitia</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="93.5" y="286.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="151" x="16" y="302.8701">Official train time-table</text><!--MD5=[0a80c38a9b1df8b6d2ad8238a96997b1]
+link 15 to 14--><path d="M915.6024,331.1215 C917.1399,375.7445 922.9861,441.8643 942.5,495.9531 C949.525,515.4249 960.2731,535.0059 971.419,552.391 " fill="none" id="15-&gt;14" style="stroke: #707070; stroke-width: 3.0;"/><polygon fill="#707070" points="974.2592,556.7622,972.7097,547.036,971.5349,552.5696,966.0014,551.3948,974.2592,556.7622" style="stroke: #707070; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="129" x="943.5" y="456.52">Sends timetables</text><!--MD5=[c49df76b05cd7343c1f29d62474ee235]
+link 15 to 11--><path d="M851.7828,331.2054 C823.8467,354.0513 790.9991,381.7331 762.5,407.9531 C711.3543,455.0087 656.136,511.4979 616.541,553.0897 " fill="none" id="15-&gt;11" style="stroke: #707070; stroke-width: 3.0;"/><polygon fill="#707070" points="612.9992,556.8142,622.0998,553.0486,616.4447,553.1909,616.3024,547.5358,612.9992,556.8142" style="stroke: #707070; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="149" x="763.5" y="456.52">Receives timetables</text><!--MD5=[ad9d30a6482909a64c170f771130d934]
+link 2 to 18--><path d="M1148.5,116.9585 C1148.5,148.3512 1148.5,190.8141 1148.5,224.5972 " fill="none" id="2-&gt;18" style="stroke: #707070; stroke-width: 3.0;"/><polygon fill="#707070" points="1148.5,229.9417,1152.5,220.9417,1148.5,224.9417,1144.5,220.9417,1148.5,229.9417" style="stroke: #707070; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="113" x="1149.5" y="160.02">Enter transport</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="40" x="1188.5" y="175.1528">delay</text><!--MD5=[ec143eb54b8ec3c64add95129ee53470]
+link 10 to 11--><path d="M449.6279,331.1431 C455.353,375.7801 466.8167,441.9084 488.5,495.9531 C496.2596,515.2936 507.2536,534.9772 518.3607,552.5056 " fill="none" id="10-&gt;11" style="stroke: #707070; stroke-width: 3.0;"/><polygon fill="#707070" points="521.1851,556.914,519.698,547.1781,518.4878,552.704,512.9619,551.4938,521.1851,556.914" style="stroke: #707070; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="139" x="489.5" y="449.02">Send timetables in</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="79" x="522" y="464.1528">our format</text><!--MD5=[bb981a6adc719b3e66753b53abef405f]
+reverse link 6 to 10--><path d="M182.461,280.4531 C229.1316,280.4531 286.3265,280.4531 335.3607,280.4531 " fill="none" id="6&lt;-10" style="stroke: #707070; stroke-width: 3.0;"/><polygon fill="#707070" points="177.4021,280.4531,186.4021,284.4531,182.4021,280.4531,186.4021,276.4531,177.4021,280.4531" style="stroke: #707070; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="122" x="195.25" y="273.52">Read timetables</text><!--MD5=[786143a3b0e1db0b838116ef4b39cc8e]
+link 18 to 14--><path d="M1134.4443,330.9624 C1121.5284,375.1954 1100.8823,440.8324 1077.5,495.9531 C1069.5542,514.6842 1059.7166,534.4832 1050.2783,552.3185 " fill="none" id="18-&gt;14" style="stroke: #707070; stroke-width: 3.0;"/><polygon fill="#707070" points="1047.8887,556.8088,1055.648,550.7431,1050.2377,552.395,1048.5858,546.9847,1047.8887,556.8088" style="stroke: #707070; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="122" x="1110.5" y="456.52">Read timetables</text><!--MD5=[a91ffb4d1e9eb74fa9d25e6445decd2f]
+link 18 to 1--><path d="M1213.9066,330.9812 C1244.1403,354.3374 1279.8362,381.9132 1309.5058,404.8337 " fill="none" id="18-&gt;1" style="stroke: #707070; stroke-width: 3.0;"/><polygon fill="#707070" points="1313.4647,407.892,1308.7879,399.2244,1309.5079,404.8353,1303.8971,405.5553,1313.4647,407.892" style="stroke: #707070; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="145" x="1273.5" y="374.02">Get transport delay</text><rect fill="#DDDDDD" height="128.0781" rx="5" ry="5" style="stroke: #000000; stroke-width: 1.0;" width="199" x="1304" y="700.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="1380" y="720.9482"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="39" x="1385" y="720.9482">Type</text><rect fill="#08427B" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="70" x="1310" y="724.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1334" y="737.2451"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="1384" y="737.2451">person</text><rect fill="#686868" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="70" x="1310" y="740.5469"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1334" y="753.542"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="108" x="1384" y="753.542">external person</text><rect fill="#1168BD" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="70" x="1310" y="756.8438"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1322" y="769.8389"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="1384" y="769.8389">system</text><rect fill="#999999" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="70" x="1310" y="773.1406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1334" y="786.1357"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="1384" y="786.1357">external system</text><rect fill="#438DD5" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="70" x="1310" y="789.4375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1322" y="802.4326"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="65" x="1384" y="802.4326">container</text><rect fill="#85BBF0" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="70" x="1310" y="805.7344"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1322" y="818.7295"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="1384" y="818.7295">component</text><line style="stroke: #000000; stroke-width: 1.0;" x1="1310" x2="1497" y1="707.9531" y2="707.9531"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1310" x2="1497" y1="724.25" y2="724.25"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1310" x2="1497" y1="740.5469" y2="740.5469"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1310" x2="1497" y1="756.8438" y2="756.8438"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1310" x2="1497" y1="773.1406" y2="773.1406"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1310" x2="1497" y1="789.4375" y2="789.4375"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1310" x2="1497" y1="805.7344" y2="805.7344"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1310" x2="1497" y1="822.0313" y2="822.0313"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1310" x2="1310" y1="707.9531" y2="822.0313"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1380" x2="1380" y1="707.9531" y2="822.0313"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1497" x2="1497" y1="707.9531" y2="822.0313"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="144" x="684" y="851.0264">Kafkatrain containers</text><!--MD5=[39c8a53c040be551dedf33695623ac6d]
 @startuml(id=kafkatrain.containers)
 
 
@@ -461,6 +462,461 @@ skinparam database<<component>> {
 
 
 
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+
+
+
+
+hide stereotype
+legend right
+|=              |= Type |
+|<#08427B>      | person |
+|<#686868>      | external person |
+|<#1168BD>   | system |
+|<#999999>      | external system |
+|<#438DD5>   | container |
+|<#85BBF0>   | component |
+endlegend
+
 scale max 2000x2000
 title kafkatrain - Containers
 caption Kafkatrain containers
@@ -483,6 +939,7 @@ rectangle "==Waiting person\n\n Someone waiting for his transport." <<person>> a
 rectangle "==navitia\n\n Official train time-table" <<external_system>> as 6
 rectangle "==kafkatrain\n<size:12>[System]</size>" <<boundary>> as 3_boundary {
   rectangle "==Data sink\n//<size:12>[Kafka Connect]</size>//\n\n A tool to push events in search engine" <<container>> as 15
+  rectangle "==DevOps pipeline\n//<size:12>[Jenkins-X]</size>//\n\n DevOps pipeline manager" <<container>> as 22
   database "==Search engine\n//<size:12>[Elastic]</size>//\n\n A search engine allowing geographic queries" <<container>> as 14
   database "==Streaming platform\n//<size:12>[Kafka]</size>//\n\n A platform to ingest timetables at the right speed" <<container>> as 11
   rectangle "==sncf-reader\n//<size:12>[Java/Vert.x]</size>//\n\n Read timetables from navitia, despite its name" <<container>> as 10
@@ -501,7 +958,7 @@ PlantUML version 1.2019.12(Sun Nov 03 10:24:54 UTC 2019)
 (APACHE source distribution)
 Java Runtime: OpenJDK Runtime Environment
 JVM: OpenJDK 64-Bit Server VM
-Java Version: 11.0.6+10-LTS
+Java Version: 11.0.7+10-LTS
 Operating System: Linux
 Default Encoding: UTF-8
 Language: en
